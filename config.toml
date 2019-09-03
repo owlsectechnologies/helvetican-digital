@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "hevetican.com"
 languageCode = "en-us"
-title = "My New Hugo Site"
-theme = "ananke"
+title = "Helvetican"
+theme = "airspace-hugo"
