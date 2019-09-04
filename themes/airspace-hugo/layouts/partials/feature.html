@@ -1,20 +1,15 @@
-<section id="feature"
-         style="background-image:url({{ .Site.BaseURL }}img/feature-bg.webp),url({{ .Site.BaseURL }}img/feature-bg.jpg)">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-md-offset-6">
-                <h2 class="text-uppercase">WE BELIEVE IN GREAT IDEAS</h2>
-                <p>
-                    Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-                    Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-                    sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac,
-                    vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
-                    fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac
-                    consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                    condimentum nibh, ut fermentum massa justo sit amet risus.
-                </p>
-                <a href="#" class="btn btn-main">View Works</a>
-            </div>
-        </div>
+<section id="feature" style="background-image: url('{{ .Site.Params.feature.bgImage | absURL }}');">
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-6">
+      <h2 class="text-uppercase">{{ .Site.Params.feature.title }}</h2>
+      <p>
+      	{{ .Site.Params.feature.content | markdownify }}
+      </p>
+      {{ with .Site.Params.feature.button }}
+      	<a href="{{ .url }}" class="btn btn-main">{{ .caption }}</a>
+      {{ end }}
     </div>
+  </div>
+</div>
 </section>

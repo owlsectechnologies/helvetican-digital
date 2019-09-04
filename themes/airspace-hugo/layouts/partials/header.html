@@ -23,16 +23,9 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="navigation">
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="{{ .Site.BaseURL }}">Home</a></li>
-                <li><a href="{{ .URL | absURL }}">Work</a></li>
-                <li><a href="{{ .URL | absURL }}">Blog</a></li>
-                <li><a href="{{ .URL | absURL }}">Service</a></li>
-                <li><a href="{{ .URL | absURL }}">Contact</a></li>
+                <li><a href="{{ .Site.BaseURL }}">{{ .Site.Params.home }}</a></li>
                 {{ range .Site.Menus.header }}
-                <li><a href="{{ .URL | absURL }}">Work</a></li>
-                <li><a href="{{ .URL | absURL }}">Blog</a></li>
-                <li><a href="{{ .URL | absURL }}">Service</a></li>
-                <li><a href="{{ .URL | absURL }}">Contact</a></li>
+                <li><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
                 {{ end }}
               </ul>
             </div><!-- /.navbar-collapse -->
