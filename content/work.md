@@ -1,5 +1,5 @@
 +++
 title = "Work"
 id = "work"
-bgImage = "img/slider-bg.jpg"
+bgImage = "img/slider-bg.png"
 +++

@@ -5,23 +5,21 @@ theme = "airspace-hugo"
 
 [params]
   home = "Home"
+  about-us = "About Us"
+  services = "Service"
 
   [menu]
 
     [[menu.header]]
       weight = 2
-      name = "Work"
-      url = "work"
+      name = "About"
+      url = "about"
     [[menu.header]]
       weight = 3
-      name = "Blog"
-      url = "blog"
+      name = "Services"
+      url = "services"
     [[menu.header]]
       weight = 4
-      name = "Service"
-      url = "service"
-    [[menu.header]]
-      weight = 5
       name = "Contact"
       url = "contact"
 
@@ -50,13 +48,13 @@ theme = "airspace-hugo"
     enable = true
     title = "A digital marketing &amp; design agency"
     subtitle = "We love the Web and the work we do.<br/>We work closely with our clients to deliver the best possible solutions for their needs"
-    bgImage = "img/slider-bg.jpg"
+    bgImage = "img/slider-bg.png"
     btnText = "Discover Our Projects"
     url = "#"
 
   [params.wrapper]
     enable = true
-    image = "img/wrapper-img.jpg"
+    image = "img/wrapper-img.png"
     title = "About Us"
     italic = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
     paragraph = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id"
@@ -69,7 +67,7 @@ theme = "airspace-hugo"
   [params.feature]
     enable = true
     title = "We believe in great ideas"
-    bgImage = "img/feature-bg.jpg"
+    bgImage = "img/feature-bg.png"
     content = "Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
     [params.feature.button]
       caption = "View Works"
