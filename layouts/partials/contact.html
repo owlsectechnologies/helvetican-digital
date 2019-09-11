@@ -7,24 +7,18 @@
     <div class="row">
       <div class="col-md-6 col-sm-12">
         <div class="block">
-          <form>
+          <form id="contact">
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="{{ .form.name }}">
+              <input type="text" class="form-control" id="full_name" placeholder="{{ .form.full_name }}">
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="{{ .form.email }}">
+              <input type="text" class="form-control" id="email" placeholder="{{ .form.email }}">
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="{{ .form.subject }}">
+              <input type="text" class="form-control" id="phone" placeholder="{{ .form.phone }}">
             </div>
-          </form>
-        </div>
-      </div>
-      <div class="col-md-6 col-sm-12">
-        <div class="block">
-          <form>
-            <div class="form-group-2">
-              <textarea class="form-control" rows="3" placeholder="{{ .form.message }}"></textarea>
+            <div class="form-group">
+              <textarea class="form-control" rows="3" id="message" placeholder="{{ .form.message }}"></textarea>
             </div>
             <button class="btn btn-default" type="submit">{{ .form.button }}</button>
           </form>

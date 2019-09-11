@@ -81,4 +81,36 @@ $(document).ready(function () {
 
 	// venobox
 	$('.venobox').venobox();
+
+    (function ($) {
+        function processForm(e) {
+            var data = JSON.stringify({
+                "full_name": $('#full_name').val(),
+                "email": $('#email').val(),
+                "phone": $('#phone').val(),
+                "message": $('#message').val()
+            });
+            $.ajax({
+                type: 'POST',
+                url: 'http://46.101.205.188/contact/pq0sb1ihx3yekh0uzxcygt6zdpwjr7r3/',
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
+                },
+                dataType: 'json',
+                data: data,
+                processData: false,
+                // success: function( data, textStatus, jQxhr ){
+                //     $('#response pre').html( data );
+                // },
+                // error: function( jqXhr, textStatus, errorThrown ){
+                //     console.log( errorThrown );
+                // }
+            });
+
+            e.preventDefault();
+        }
+
+        $('#contact').submit(processForm);
+    })(jQuery);
 });
