@@ -1,45 +1,13 @@
 enable: true
 title: About Us
-subtitle: >
-  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics
+description_1: >
+  <p>Helvetican was born in 2018 out of the ambition to combine the strengths of human being and digital interaction in the world of banking.</p>
+description_2: >
+  <p>Helvetican, based in Switzerland, is a registered investment advisory firm providing investment management, consulting, and planning services for individuals, businesses and sovereign wealth funds on a fee-for-service basis.</p>
+  <p>Together with strong partners such as custodians, asset managers and universities we have built a financial uncompromising digital platform for the benefit of a demanding and professional investor community accessable to enhance their wealth.</p>
+image: img/about.jpg
 content:
-
-  - icon: ion-coffee
-    name: Branding
+  - icon: ion-quote
+    name: Özgür Aksakal, Partner of Helvetican Digital
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-
-  - icon: ion-compass
-    name: Web Design
-    text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-
-  - icon: ion-image
-    name: App Design
-    text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-
-  - icon: ion-bug
-    name: Start Up
-    text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-
-  - icon: ion-headphone
-    name: Logo Design
-    text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-
-  - icon: ion-leaf
-    name: Development
-    text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-
-  - icon: ion-planet
-    name: Brand Identity
-    text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-
-  - icon: ion-earth
-    name: Brand Identity
-    text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+      Our approach is what you would expect from a true partner: Personal and dedicated service. With a strong emphasis on "value", "success" and "collaboration".

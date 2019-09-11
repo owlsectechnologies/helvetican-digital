@@ -1,6 +1,6 @@
 baseURL = "https://hugo-test.onrender.com/"
 languageCode = "en-us"
-title = "Helvetican"
+title = "Helvetican Digital"
 theme = "airspace-hugo"
 
 [params]
@@ -26,22 +26,22 @@ theme = "airspace-hugo"
     [[menu.footer]]
       weight = 1
       name = "About us"
-      url = "#"
+      url = "about"
     [[menu.footer]]
       weight = 2
       name = "Contact us"
       url = "contact"
     [[menu.footer]]
       weight = 3
-      name = "How it works"
-      url = "work"
+      name = "Services"
+      url = "service"
     [[menu.footer]]
       weight = 4
-      name = "Blog"
-      url = "blog"
+      name = "Terms of Usage"
+      url = "#"
     [[menu.footer]]
       weight = 5
-      name = "Terms"
+      name = "Privacy Policy"
       url = "#"
 
   [params.slider]
@@ -50,7 +50,7 @@ theme = "airspace-hugo"
     subtitle = "We love the Web and the work we do.<br/>We work closely with our clients to deliver the best possible solutions for their needs"
     bgImage = "img/slider-bg.png"
     btnText = "Discover Our Projects"
-    url = "#"
+    url = "/services"
 
   [params.wrapper]
     enable = true
@@ -71,7 +71,7 @@ theme = "airspace-hugo"
     content = "Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
     [params.feature.button]
       caption = "View Works"
-      url = "#"
+      url = "/services"
 
   [params.call]
     enable = true
@@ -79,7 +79,7 @@ theme = "airspace-hugo"
     title = "We design delightful digital experiences."
     paragraph = "Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
     [params.call.button]
-      url = "#"
+      url = "/contact"
       text = "tell us your story"
 
   [params.contact]
@@ -94,8 +94,8 @@ theme = "airspace-hugo"
       button = "Send message"
     [params.contact.box]
       title = "Stop by for a visit"
-      address = "North Main Street, Brooklyn Australia"
-      email = "Email: contact@mail.com"
-      phone = "Phone: +88 01672 506 744"
+      address = "Helvetican Digital, Max-Bill-Platz 5, 8050 Zürich, Switzerland"
+      email = "team@helveticandigital.com"
+      phone = "+41 76 558 77 76"
     [params.contact.gmaps]
       title = "We Also Count in Google Maps"

@@ -1,6 +1,6 @@
 +++
 title = "Services"
-metaTitle = "Services | Helvetican Digital"
+pageTitle = "Services | Helvetican Digital"
 id = "services"
-bgImage = "img/slider-bg.png"
+bgImage = "img/slider-bg-subpage.png"
 +++
