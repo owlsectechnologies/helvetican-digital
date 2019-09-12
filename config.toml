@@ -34,7 +34,7 @@ theme = "airspace-hugo"
     [[menu.footer]]
       weight = 3
       name = "Services"
-      url = "service"
+      url = "services"
     [[menu.footer]]
       weight = 4
       name = "Terms of Usage"

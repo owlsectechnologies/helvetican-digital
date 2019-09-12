@@ -1,6 +1,6 @@
 +++
-title = "Contact"
-pageTitle = "Contact | Helvetican Digital"
+pageTitle = "Contact"
+title = "Contact | Helvetican Digital"
 id = "contact"
 bgImage = "img/slider-bg-subpage.png"
 +++
