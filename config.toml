@@ -37,7 +37,7 @@ theme = "airspace-hugo"
       url = "services"
     [[menu.footer]]
       weight = 4
-      name = "Terms of Usage"
+      name = "Terms of Use"
       url = "#"
     [[menu.footer]]
       weight = 5
@@ -76,11 +76,11 @@ theme = "airspace-hugo"
   [params.call]
     enable = true
     bgImage = "img/call-to-action-bg.jpg"
-    title = "We design delightful digital experiences."
-    paragraph = "Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
+    title = "Tailored digital solutions for ambitious businesses and individuals."
+    paragraph = "Contact us to learn about what we do and how we do it differently. The Helvetican Digital Team is looking forward to hearing from you."
     [params.call.button]
       url = "/contact"
-      text = "tell us your story"
+      text = "Contact us"
 
   [params.contact]
     enable = true
@@ -93,9 +93,9 @@ theme = "airspace-hugo"
       message = "Your message"
       button = "Send message"
     [params.contact.box]
-      title = "Stop by for a visit"
-      address = "Helvetican Digital, Max-Bill-Platz 5, 8050 Zürich, Switzerland"
-      email = "team@helveticandigital.com"
+      title = "Our office"
+      address = "Helvetican Digital, Spätzstrasse 33, 8810 Horgen, Switzerland"
+      email = "team@helvetican.digital"
       phone = "+41 76 558 77 76"
     [params.contact.gmaps]
-      title = "We Also Count in Google Maps"
+      title = "Our coordinates"
