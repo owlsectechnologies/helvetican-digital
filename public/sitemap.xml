@@ -3,15 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://hugo-test.onrender.com/about/</loc>
+  </url>
+  
+  <url>
     <loc>https://hugo-test.onrender.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hugo-test.onrender.com/contact/</loc>
   </url>
   
   <url>
     <loc>https://hugo-test.onrender.com/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hugo-test.onrender.com/services/</loc>
   </url>
   
   <url>
     <loc>https://hugo-test.onrender.com/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hugo-test.onrender.com/work/</loc>
   </url>
   
 </urlset>
