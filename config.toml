@@ -5,7 +5,7 @@ theme = "airspace-hugo"
 
 [params]
   home = "Home"
-  our-expertise = "Our Expertise"
+  about-us = "About Us"
   services = "Service"
 
   [menu]
@@ -16,33 +16,33 @@ theme = "airspace-hugo"
       url = "services"
     [[menu.header]]
       weight = 3
-      name = "Our Expertise"
-      url = "our-expertise"
+      name = "Case Studies"
+      url = "case-studies"
     [[menu.header]]
       weight = 4
+      name = "About Us"
+      url = "about-us"
+    [[menu.header]]
+      weight = 5
       name = "Contact"
       url = "contact"
 
     [[menu.footer]]
       weight = 1
-      name = "Our Expertise"
-      url = "our-expertise"
-    [[menu.footer]]
-      weight = 2
-      name = "Contact us"
-      url = "contact"
-    [[menu.footer]]
-      weight = 3
       name = "Services"
       url = "services"
     [[menu.footer]]
-      weight = 4
-      name = "Terms of Use"
-      url = "#"
+      weight = 2
+      name = "Case Studies"
+      url = "case-studies"
     [[menu.footer]]
-      weight = 5
-      name = "Privacy Policy"
-      url = "#"
+      weight = 3
+      name = "About Us"
+      url = "about-us"
+    [[menu.footer]]
+      weight = 4
+      name = "Contact us"
+      url = "contact"
 
   [params.slider]
     enable = true
@@ -50,12 +50,12 @@ theme = "airspace-hugo"
     subtitle = "We love the Web and the work we do.<br/>We work closely with our clients to deliver the best possible solutions for their needs"
     bgImage = "img/slider-bg.png"
     btnText = "Discover Our Projects"
-    url = "/services"
+    url = "/case-studies"
 
   [params.wrapper]
     enable = true
     image = "img/wrapper-img.png"
-    title = "Our Expertise"
+    title = "About Us"
     italic = "At Helvetican Digital, we provide a wide scope of services and digital solutions for both finance and non-finance related projects. Our dedicated team of experts is here to take on your projects and make your life easier while seeing your business prosper."
     paragraph = "Our scope of work includes but is not limited to developing digital platforms for digital finance, cryptocurrencies, wealth management domains, websites and mobile applications design and development, and digital marketing."
 
@@ -70,8 +70,8 @@ theme = "airspace-hugo"
     bgImage = "img/feature-bg.png"
     content = "It’s the outcome of the project that gets us all excited at Helvetican Digital. We’re enthusiastic about taking on new challenges and assisting you throughout the entire project. We strongly believe that your satisfaction is our success and we will always provide you with the best solutions."
     [params.feature.button]
-      caption = "View Works"
-      url = "/services"
+      caption = "View Case Studies"
+      url = "/case-studies"
 
   [params.call]
     enable = true

@@ -1,0 +1,39 @@
+{{ partial "global-header.html" . }}
+
+<section id="about">
+    <div class="container">
+        <div class="row">
+<!--            <div class="section-title">-->
+<!--                <h2>{{ .Site.Data.aboutus.title }}</h2>-->
+<!--            </div>-->
+            <p>{{ .Site.Data.aboutus.description_1 | safeHTML }}</p>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="about-image">
+                    <img src="{{.Params.image | absURL }}"/>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <p>{{ .Site.Data.aboutus.description_2 | safeHTML }}</p>
+        </div>
+        <div class="row">
+            {{ range .Site.Data.aboutus.content }}
+            <div class="col-12">
+                <div class="about-item">
+                    <div class="row">
+                        <div class="col-sm-1 col-md-1">
+                            <img src="{{ .icon }}"/>
+                        </div>
+                        <div class="col-sm-5 col-md-5">
+                            <h4>{{ .name }}</h4>
+                            <p>{{ .text }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>

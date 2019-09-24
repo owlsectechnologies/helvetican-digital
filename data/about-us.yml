@@ -1,11 +1,11 @@
 enable: true
-title: Our Expertise
+title: About Us
 description_1: >
   <p>Helvetican Digital, based in Switzerland, was founded in 2019 with the great ambition to combine the strengths of human beings and digital interaction. </p>
 description_2: >
   <p>We provide consulting, digital solutions and marketing services for ambitious businesses and individuals who value Swiss touch and quality. Together with our strong partners and experienced team members, we develop uncompromising solutions in the digital space.</p>
 content:
-  - icon: ion-quote
+  - icon: "/img/about-us/quote-icon.svg"
     name: Digital is our passion. Your success is our goal. User experience is our center of gravity.
     text: >
       Özgür Aksakal, Partner at Helvetican Digital.

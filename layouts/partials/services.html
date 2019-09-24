@@ -7,9 +7,9 @@
 
     <!-- Intro -->
     <div class="row">
-      <div class="section-title">
-        <h2>{{ .Site.Data.services.title }}</h2>
-      </div>
+<!--      <div class="section-title">-->
+<!--        <h2>{{ .Site.Data.services.title }}</h2>-->
+<!--      </div>-->
       <p>{{ .Site.Data.services.subtitle }}</p>
     </div>
 
@@ -18,7 +18,7 @@
       {{ range .Site.Data.services.content }}
       <div class="col-sm-6 col-md-4">
         <div class="service-item">
-          <i class="{{ .icon }}"></i>
+          <img src="{{ .Site.BaseURL }}{{ .icon }}"/>
           <h4>{{ .name }}</h4>
           <p>{{ .text }}</p>
         </div>

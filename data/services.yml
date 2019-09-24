@@ -4,32 +4,32 @@ subtitle: >
   Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics
 content:
 
-  - icon: ion-coffee
+  - icon: "/img/services/fintech.svg"
     name: FinTech
     text: >
       We develop digital fintech platforms for digital finance, crypto, and wealth management domains.
 
-  - icon: ion-compass
+  - icon: "/img/services/mobile.svg"
     name: Mobile Applications
     text: >
       We design and develop iOS and Android applications.
 
-  - icon: ion-image
+  - icon: "/img/services/web-apps.svg"
     name: Web Applications
     text: >
       We design and develop web applications for startups and corporates.
 
-  - icon: ion-bug
+  - icon: "/img/services/websites.svg"
     name: Websites
     text: >
       We design and develop responsive, pixel-perfect website that
 
-  - icon: ion-headphone
+  - icon: "/img/services/cms.svg"
     name: CMS Development
     text: >
       We implement complex content-rich websites using Content Management Systems, corporate portals and community solutions.
 
-  - icon: ion-leaf
+  - icon: "/img/services/digital-marketing.svg"
     name: Digital Marketing
     text: >
       As a full service agency we provide a wide range of digital marketing services including SEO, SEM, PPC, Content Marketing, ORM and more.
