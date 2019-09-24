@@ -4,9 +4,9 @@
     <div class="container">
         <div class="row">
             <div class="section-title">
-                <h2>{{ .Site.Data.about.title }}</h2>
+                <h2>{{ .Site.Data.ourexpertise.title }}</h2>
             </div>
-            <p>{{ .Site.Data.about.description_1 | safeHTML }}</p>
+            <p>{{ .Site.Data.ourexpertise.description_1 | safeHTML }}</p>
         </div>
         <div class="row">
             <div class="col-12">
@@ -16,10 +16,10 @@
             </div>
         </div>
         <div class="row">
-            <p>{{ .Site.Data.about.description_2 | safeHTML }}</p>
+            <p>{{ .Site.Data.ourexpertise.description_2 | safeHTML }}</p>
         </div>
         <div class="row">
-            {{ range .Site.Data.about.content }}
+            {{ range .Site.Data.ourexpertise.content }}
             <div class="col-12">
                 <div class="about-item">
                     <i class="{{ .icon }}"></i>

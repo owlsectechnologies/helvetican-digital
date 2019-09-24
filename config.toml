@@ -5,19 +5,19 @@ theme = "airspace-hugo"
 
 [params]
   home = "Home"
-  about-us = "About Us"
+  our-expertise = "Our Expertise"
   services = "Service"
 
   [menu]
 
     [[menu.header]]
       weight = 2
-      name = "About"
-      url = "about"
-    [[menu.header]]
-      weight = 3
       name = "Services"
       url = "services"
+    [[menu.header]]
+      weight = 3
+      name = "Our Expertise"
+      url = "our-expertise"
     [[menu.header]]
       weight = 4
       name = "Contact"
@@ -25,8 +25,8 @@ theme = "airspace-hugo"
 
     [[menu.footer]]
       weight = 1
-      name = "About us"
-      url = "about"
+      name = "Our Expertise"
+      url = "our-expertise"
     [[menu.footer]]
       weight = 2
       name = "Contact us"
@@ -55,9 +55,9 @@ theme = "airspace-hugo"
   [params.wrapper]
     enable = true
     image = "img/wrapper-img.png"
-    title = "About Us"
-    italic = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
-    paragraph = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id"
+    title = "Our Expertise"
+    italic = "At Helvetican Digital, we provide a wide scope of services and digital solutions for both finance and non-finance related projects. Our dedicated team of experts is here to take on your projects and make your life easier while seeing your business prosper."
+    paragraph = "Our scope of work includes but is not limited to developing digital platforms for digital finance, cryptocurrencies, wealth management domains, websites and mobile applications design and development, and digital marketing."
 
   [params.blog]
     enable = true
@@ -68,7 +68,7 @@ theme = "airspace-hugo"
     enable = true
     title = "We believe in great ideas"
     bgImage = "img/feature-bg.png"
-    content = "Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+    content = "It’s the outcome of the project that gets us all excited at Helvetican Digital. We’re enthusiastic about taking on new challenges and assisting you throughout the entire project. We strongly believe that your satisfaction is our success and we will always provide you with the best solutions."
     [params.feature.button]
       caption = "View Works"
       url = "/services"
