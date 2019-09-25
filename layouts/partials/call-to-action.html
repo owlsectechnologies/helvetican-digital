@@ -1,4 +1,5 @@
 <!-- Call to action Start -->
+{{ if not (eq .Params.id "contact") }}
 <section id="call-to-action">
   {{ with .Site.Params.call }}
   <div class="container">
@@ -14,5 +15,6 @@
       </div>
     </div>
   </div>
+  {{ end }}
 </section>
 {{ end }}
