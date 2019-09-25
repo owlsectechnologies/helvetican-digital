@@ -299,14 +299,12 @@ font header .navbar-default .navbar-nav li a:hover {
 	service Start
 --*/
 #service {
-    /*text-align: center;*/
-    padding: 90px 0;
+    padding: 50px 0;
     border-bottom: 1px solid #E8E8E8;
 }
 
 #service .service-item {
     padding-bottom: 30px;
-    text-align: center;
 }
 
 #service .service-item i {
@@ -343,8 +341,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	about Start
 --*/
 #about {
-    /*text-align: center;*/
-    padding: 90px 0;
+    padding: 40px 0;
     border-bottom: 1px solid #E8E8E8;
 }
 
@@ -369,13 +366,19 @@ font header .navbar-default .navbar-nav li a:hover {
     color: #666;
 }
 
-#about .about-item p {
-    color: #000;
-    padding-top: 10px;
+#about p {
     margin: 0;
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 1.8;
+    color: #160622;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    letter-spacing: -0.2px;
+    text-align: left;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+#about .about-item p {
+    font-size: 14px;
 }
 
 .about-image {
@@ -393,7 +396,7 @@ font header .navbar-default .navbar-nav li a:hover {
     background-color: #FFFFFF;
     padding: 70px 0px;
     position: relative;
-    text-align: center;
+    /*text-align: center;*/
     color: #160622;
 }
 
@@ -462,7 +465,6 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 #feature h2 {
-    text-transform: none;
     font-size: 40px;
     color: #160622;
     font-weight: 700;
@@ -650,7 +652,7 @@ font header .navbar-default .navbar-nav li a:hover {
 --*/
 #portfolio-work {
     overflow: hidden;
-    padding: 80px 0;
+    padding: 40px 0;
     border-bottom: 1px solid #E8E8E8;
 }
 
@@ -798,6 +800,33 @@ font header .navbar-default .navbar-nav li a:hover {
 
 #portfolio-work .block .mix {
     display: none;
+}
+
+#portfolio-work .portfolio-item {
+    padding: 20px 0;
+}
+
+#portfolio-work .portfolio-item h2 {
+    font-size: 40px;
+    color: #160622;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+#portfolio-work .portfolio-item p {
+    color: #160622;
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 25px;
+    font-size: 18px;
+    letter-spacing: -0.2px;
+    text-align: left;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+#portfolio-work .portfolio-item .portfolio-image {
+    width: 100%;
+    height: auto;
 }
 
 /*--
@@ -976,15 +1005,33 @@ font header .navbar-default .navbar-nav li a:hover {
 
 #contact-box .block h2 {
     font-family: 'Inter', sans-serif;
-    font-weight: 300;
-    color: #000;
-    font-size: 28px;
-    padding-bottom: 30px;
+    font-size: 40px;
+    color: #160622;
+    font-weight: 700;
+    padding-bottom: 10px;
 }
 
 #contact-box .block p {
-    color: #5C5C5C;
     display: block;
+    color: #160622;
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 25px;
+    font-size: 18px;
+    letter-spacing: -0.2px;
+    text-align: left;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+#contact-box .block ul li {
+    display: block;
+    color: #160622;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    letter-spacing: -0.2px;
+    text-align: left;
+    line-height: 30px;
+    font-weight: 300;
 }
 
 /*--

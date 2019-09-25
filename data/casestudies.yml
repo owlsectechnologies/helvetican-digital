@@ -4,13 +4,15 @@ subtitle: A small selection of projects we have recently delivered. From UX to B
 
 works:
   - title: Helvetican Robo Advisor
+    is_odd: true
     image:
       _x: "/img/case-studies/robo-advisor.png"
       _2x: "/img/case-studies/robo-advisor@2x.png"
       _3x: "/img/case-studies/robo-advisor@3x.png"
     description: >
       We have built a digital platform for wealth management. Digital Onboarding, CRM functionality, Bank API Integration, Portfolios and Reporting. We carefully designed the Dashboard to give users a simplified overview. For enhanced security, we implemented two-factor-authentication (2FA).
-  - title: Envy Pro Hair
+  - title: Envy Professional
+    is_odd: false
     image:
       _x: "/img/case-studies/envy.png"
       _2x: "/img/case-studies/envy@2x.png"

@@ -9,17 +9,31 @@
 <!--            </div>-->
 <!--        </div>-->
         {{ range .Site.Data.casestudies.works }}
-        <h3>{{ .title }}</h3>
-        <div class="row">
+        {{ if .is_odd }}
+        <div class="row portfolio-item">
             <div class="col-md-6 col-sm-12">
+                <h2>{{ .title }}</h2>
                 <p>{{ .description }}</p>
             </div>
             <div class="col-md-6 col-sm-12">
                 <div class="block">
-                    <img style="width: 100%; height: auto" src="{{ .image._3x }}" srcset="{{ .image._2x }} 2x, {{ .image._3x }} 3x" alt="{{ .title }}">
+                    <img class="portfolio-image" src="{{ .image._3x }}" srcset="{{ .image._2x }} 2x, {{ .image._3x }} 3x" alt="{{ .title }}">
                 </div>
             </div>
-        </div><br>
+        </div>
+        {{ else }}
+        <div class="row portfolio-item">
+            <div class="col-md-6 col-sm-12">
+                <div class="block">
+                    <img class="portfolio-image" src="{{ .image._3x }}" srcset="{{ .image._2x }} 2x, {{ .image._3x }} 3x" alt="{{ .title }}">
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <h2>{{ .title }}</h2>
+                <p>{{ .description }}</p>
+            </div>
+        </div>
+        {{ end }}
         {{ end }}
     </div>
 </section>
