@@ -2,12 +2,12 @@ enable: true
 title: Our Services
 subtitle: >
   Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics
-content:
+content_1:
 
   - icon: "/img/services/fintech.svg"
     name: FinTech
     text: >
-      We develop digital fintech platforms for digital finance, crypto, and wealth management domains.
+      We develop digital fintech platforms <br /> for digital finance, crypto, and wealth management domains.
 
   - icon: "/img/services/mobile.svg"
     name: Mobile Applications
@@ -19,6 +19,7 @@ content:
     text: >
       We design and develop web applications for startups and corporates.
 
+content_2:
   - icon: "/img/services/websites.svg"
     name: Websites
     text: >
@@ -27,9 +28,9 @@ content:
   - icon: "/img/services/cms.svg"
     name: CMS Development
     text: >
-      We implement complex content-rich websites using Content Management Systems, corporate portals and community solutions.
+      We implement complex content-rich websites using Content Management Systems, corporate portals & community solutions.
 
   - icon: "/img/services/digital-marketing.svg"
     name: Digital Marketing
     text: >
-      As a full service agency we provide a wide range of digital marketing services including SEO, SEM, PPC, Content Marketing, ORM and more.
+      As a full service agency we provide a<br />wide range of digital marketing services including SEO, SEM, PPC, Content Marketing, ORM and more.

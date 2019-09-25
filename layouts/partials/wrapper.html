@@ -2,16 +2,19 @@
 <section id="intro">
   <div class="container">
     <div class="row">
-      <div class="col-md-7 col-sm-12">
+      <div class="col-md-6 col-sm-12">
         <div class="block">
           <div class="section-title">
             <h2>{{ .Site.Params.wrapper.title }}</h2>
-            <p>{{ .Site.Params.wrapper.italic }}</p>
           </div>
-          <p>{{ .Site.Params.wrapper.paragraph }}</p>
+          <p>{{ .Site.Params.wrapper.paragraph_1 }}</p>
+          <p>{{ .Site.Params.wrapper.paragraph_2 }}</p>
+        {{ with .Site.Params.wrapper.button }}
+          <a href="{{ .url }}" class="btn btn-main btn-solid-border">{{ .caption }}</a>
+        {{ end }}
         </div>
       </div><!-- .col-md-7 close -->
-      <div class="col-md-5 col-sm-12">
+      <div class="col-md-6 col-sm-12">
         <div class="block">
          <img src="{{ with .Site.Params.wrapper.image }} {{ . | absURL }} {{ end }}" alt="Img">
         </div>

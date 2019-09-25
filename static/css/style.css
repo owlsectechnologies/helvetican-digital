@@ -63,7 +63,7 @@ html {
 	Common Css
 --*/
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -73,11 +73,12 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter', sans-serif;
+
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 400;
 }
 
@@ -117,14 +118,15 @@ a:active {
 }
 
 .section-title h2 {
-    text-transform: uppercase;
-    font-size: 28px;
-    font-weight: 600;
+    font-size: 40px;
+    color: #160622;
+    font-weight: 700;
+    padding-bottom: 30px;
+
 }
 
 .section-title p {
-    font-family: 'Volkhov', serif;
-    font-style: italic;
+    font-family: 'Inter', serif;
     color: #666;
 }
 
@@ -132,15 +134,15 @@ a:active {
 .btn-transparent,
 .btn-small {
     background: #655E7A;
-    color: #fff;
     display: inline-block;
-    font-size: 14px;
-    letter-spacing: 1px;
-    padding: 14px 35px;
     text-transform: uppercase;
     border-radius: 0;
     -webkit-transition: all 0.2s ease;
     transition: all 0.2s ease;
+    color: #333333;
+    padding: 14px 26px;
+    font-size: 14px;
+    font-weight: 700;
 }
 
 .btn-main:hover,
@@ -151,14 +153,16 @@ a:active {
 }
 
 .btn-solid-border {
-    border: 1px solid #fff;
-    background: transparent;
+    border-radius: 30px;
     color: #fff;
+    background: #C70D0D;
 }
 
 .btn-solid-border:hover {
-    border: 1px solid #655E7A;
-    background: #655E7A;
+    border: 1px solid #C70D0D;
+    background: transparent;
+    color: #C70D0D;
+
 }
 
 /*--
@@ -188,9 +192,11 @@ header .navbar-default .navbar-nav {
 }
 
 header .navbar-default .navbar-nav li a {
+    text-transform: uppercase;
     color: #333333;
-    padding: 10px 26px;
-    font-size: 15px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 700;
 }
 
 font header .navbar-default .navbar-nav li a:hover {
@@ -221,48 +227,59 @@ font header .navbar-default .navbar-nav li a:hover {
     right: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to left, #212481, #322e40);
-    opacity: 0.5;
+    /*background: linear-gradient(to left, #212481, #322e40);*/
+    opacity: 0.0;
 }
 
 #slider .block {
     color: #E3E3E4;
+    max-width: 570px;
 }
 
 #slider .block h1 {
-    font-family: 'Roboto', sans-serif;
-    /*font-weight: 100;*/
-    font-size: 40px;
-    line-height: 60px;
-    letter-spacing: 2px;
-    /*padding-bottom: 45px;*/
+    font-family: 'Inter', sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    color: #160622;
+    letter-spacing: -0.2px;
+    padding-bottom: 15px;
 }
 
 #slider .block p {
-    font-size: 20px;
-    line-height: 30px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    /*letter-spacing: 3px;*/
+    font-family: 'Inter', sans-serif;
     padding-bottom: 25px;
+    font-size: 20px;
+    color: #160622;
+    letter-spacing: -0.2px;
+    text-align: left;
+    line-height: 30px;
+    font-weight: 300;
 }
 
 /*--
 	wrapper Start
 --*/
 #intro {
-    padding: 100px 0;
+    padding: 180px 0;
+    background: #160622;
 }
 
 #intro .block h2 {
     padding-top: 35px;
     line-height: 27px;
     margin: 0;
+    color: #FFFFFF;
 }
 
 #intro .block p {
-    color: #7B7B7B;
-    padding-top: 20px;
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 25px;
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: -0.2px;
+    text-align: left;
+    line-height: 30px;
+    font-weight: 300;
 }
 
 #intro .block img {
@@ -284,10 +301,12 @@ font header .navbar-default .navbar-nav li a:hover {
 #service {
     /*text-align: center;*/
     padding: 90px 0;
+    border-bottom: 1px solid #E8E8E8;
 }
 
 #service .service-item {
     padding-bottom: 30px;
+    text-align: center;
 }
 
 #service .service-item i {
@@ -296,22 +315,27 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 #service .service-item img {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
 }
 
 #service .service-item h4 {
     padding-top: 20px;
     margin: 0;
-    color: #666;
+    color: #000;
+    font-weight: 700;
 }
 
 #service .service-item p {
-    color: #888;
     padding-top: 10px;
     margin: 0;
-    font-size: 14px;
-    line-height: 1.8;
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 25px;
+    font-size: 18px;
+    letter-spacing: -0.2px;
+    line-height: 30px;
+    font-weight: 300;
 }
 
 
@@ -321,6 +345,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #about {
     /*text-align: center;*/
     padding: 90px 0;
+    border-bottom: 1px solid #E8E8E8;
 }
 
 #about .about-item {
@@ -365,11 +390,11 @@ font header .navbar-default .navbar-nav li a:hover {
 	call-to-action Start
 --*/
 #call-to-action {
-    background-color: #230338;
+    background-color: #FFFFFF;
     padding: 70px 0px;
     position: relative;
     text-align: center;
-    color: #fff;
+    color: #160622;
 }
 
 #call-to-action:before {
@@ -381,20 +406,25 @@ font header .navbar-default .navbar-nav li a:hover {
     bottom: 0;
     width: 100%;
     height: 100%;
-    background: #1d192c;
-    opacity: 0.8;
+    /*background: #1d192c;*/
+    /*opacity: 0.8;*/
 }
 
-#call-to-action h2 {
+#call-to-action h3 {
     padding-bottom: 20px;
     line-height: 33px;
     margin: 0;
-    font-size: 30px;
+    font-size: 32px;
+    font-weight: 700;
 }
 
 #call-to-action p {
-    font-size: 14px;
-    line-height: 1.6;
+    padding-bottom: 25px;
+    font-size: 18px;
+    letter-spacing: -0.2px;
+    text-align: left;
+    line-height: 30px;
+    font-weight: 300;
 }
 
 #call-to-action .btn-call-to-action {
@@ -428,18 +458,26 @@ font header .navbar-default .navbar-nav li a:hover {
     box-sizing: border-box;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    padding: 100px 0;
+    padding: 200px 0;
 }
 
 #feature h2 {
-    font-size: 28px;
-    font-weight: 600;
-    margin-bottom: 30px;
+    text-transform: none;
+    font-size: 40px;
+    color: #160622;
+    font-weight: 700;
+    padding-bottom: 10px;
 }
 
 #feature p {
-    color: #8d8f92;
-    margin-bottom: 20px;
+    color: #160622;
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 25px;
+    font-size: 18px;
+    letter-spacing: -0.2px;
+    text-align: left;
+    line-height: 30px;
+    font-weight: 300;
 }
 
 #feature .btn-view-works {
@@ -566,7 +604,6 @@ font header .navbar-default .navbar-nav li a:hover {
     padding-top: 150px;
     padding-bottom: 107px;
     position: relative;
-    /*background-attachment: fixed;*/
 }
 
 #global-header:before {
@@ -590,14 +627,15 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 #global-header .block h1 {
-    /*font-weight: 100;*/
-    font-family: 'Roboto', sans-serif;
-    font-size: 40px;
-    letter-spacing: 2px;
+    font-family: 'Inter', sans-serif;
     padding-bottom: 15px;
     line-height: 60px;
     margin-top: 0;
-    text-transform: uppercase;
+    font-size: 56px;
+    font-weight: 700;
+    color: #FFFFFF;
+    letter-spacing: -0.2px;
+    text-shadow: 0 6px 18px rgba(0,0,0,0.50);
 }
 
 #global-header .block p {
@@ -613,6 +651,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #portfolio-work {
     overflow: hidden;
     padding: 80px 0;
+    border-bottom: 1px solid #E8E8E8;
 }
 
 #portfolio-work .block .portfolio-menu {
@@ -844,8 +883,8 @@ font header .navbar-default .navbar-nav li a:hover {
 	contact-form Start
 --*/
 #contact-form {
-    padding-top: 70px;
-    padding-bottom: 35px;
+    padding-top: 20px;
+    border-bottom: 1px solid #E8E8E8;
 }
 
 #contact-form .block form .form-group {
@@ -880,7 +919,7 @@ font header .navbar-default .navbar-nav li a:hover {
     background: #47424C;
     border: none;
     color: #fff;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 18px;
 }
 
@@ -936,7 +975,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 #contact-box .block h2 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 300;
     color: #000;
     font-size: 28px;
@@ -1012,7 +1051,8 @@ font header .navbar-default .navbar-nav li a:hover {
 	footer Start
 --*/
 footer {
-    background: #F5F5F5;
+    border-top: 1px solid #E8E8E8;
+    background: #FFFFFF;
     text-align: center;
     padding-top: 48px;
     padding-bottom: 55px;
@@ -1044,7 +1084,11 @@ footer .footer-manu ul li {
 
 footer .footer-manu ul li a {
     display: inline-block;
-    color: #494949;
+    text-transform: uppercase;
+    color: #333333;
+    padding: 10px 6px;
+    font-size: 14px;
+    font-weight: 700;
 }
 
 footer .footer-manu ul li a:hover {
@@ -1520,6 +1564,25 @@ px      68    160    252    */
   --*/
     footer .footer-manu {
         display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    header .navbar-default .navbar-nav li .contact {
+        border: 1px solid #C70D0D;
+        background: transparent;
+        color: #C70D0D;
+        border-radius: 30px;
+        padding: 12px 20px !important;
+        transition: all 0.2s ease;
+        margin-left: 20px;
+        margin-top: -3px;
+    }
+
+    header .navbar-default .navbar-nav li .contact:hover {
+        color: #fff;
+        background: #C70D0D;
     }
 }
 

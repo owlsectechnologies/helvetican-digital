@@ -1,7 +1,8 @@
 enable: true
 title: About Us
 description_1: >
-  <p>Helvetican Digital, based in Switzerland, was founded in 2019 with the great ambition to combine the strengths of human beings and digital interaction. </p>
+         <p>Helvetican Digital, based in Switzerland, was founded in 2019 with the great ambition to combine the strengths of human beings and digital interaction. </p>
+image: "/img/about-us/skyscraper.jpg"
 description_2: >
   <p>We provide consulting, digital solutions and marketing services for ambitious businesses and individuals who value Swiss touch and quality. Together with our strong partners and experienced team members, we develop uncompromising solutions in the digital space.</p>
 content:

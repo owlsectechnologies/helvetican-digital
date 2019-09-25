@@ -6,21 +6,32 @@
   <div class="container">
 
     <!-- Intro -->
-    <div class="row">
+<!--    <div class="row">-->
 <!--      <div class="section-title">-->
 <!--        <h2>{{ .Site.Data.services.title }}</h2>-->
 <!--      </div>-->
-      <p>{{ .Site.Data.services.subtitle }}</p>
-    </div>
+<!--      <p>{{ .Site.Data.services.subtitle }}</p>-->
+<!--    </div>-->
 
     <!-- Content -->
     <div class="row">
-      {{ range .Site.Data.services.content }}
+      {{ range .Site.Data.services.content_1 }}
       <div class="col-sm-6 col-md-4">
         <div class="service-item">
           <img src="{{ .Site.BaseURL }}{{ .icon }}"/>
           <h4>{{ .name }}</h4>
-          <p>{{ .text }}</p>
+          <p>{{ .text | safeHTML }}</p>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+    <div class="row">
+      {{ range .Site.Data.services.content_2 }}
+      <div class="col-sm-6 col-md-4">
+        <div class="service-item">
+          <img src="{{ .Site.BaseURL }}{{ .icon }}"/>
+          <h4>{{ .name }}</h4>
+          <p>{{ .text | safeHTML }}</p>
         </div>
       </div>
       {{ end }}

@@ -7,6 +7,7 @@ theme = "airspace-hugo"
   home = "Home"
   about-us = "About Us"
   services = "Service"
+  case-studies = "Case Studies"
 
   [menu]
 
@@ -22,10 +23,6 @@ theme = "airspace-hugo"
       weight = 4
       name = "About Us"
       url = "about-us"
-    [[menu.header]]
-      weight = 5
-      name = "Contact"
-      url = "contact"
 
     [[menu.footer]]
       weight = 1
@@ -41,23 +38,30 @@ theme = "airspace-hugo"
       url = "about-us"
     [[menu.footer]]
       weight = 4
-      name = "Contact us"
-      url = "contact"
+      name = "Privacy Policy"
+      url = "#"
+    [[menu.footer]]
+      weight = 5
+      name = "Use of Terms"
+      url = "#"
 
   [params.slider]
     enable = true
     title = "A digital marketing &amp; design agency"
-    subtitle = "We love the Web and the work we do.<br/>We work closely with our clients to deliver the best possible solutions for their needs"
-    bgImage = "img/slider-bg.png"
+    subtitle = "We love the Web and the work we do. We work closely with our clients to deliver the best possible solutions for their needs"
+    bgImage = "img/home/slider-bg.png"
     btnText = "Discover Our Projects"
     url = "/case-studies"
 
   [params.wrapper]
     enable = true
-    image = "img/wrapper-img.png"
+    image = "img/home/about-us.png"
     title = "About Us"
-    italic = "At Helvetican Digital, we provide a wide scope of services and digital solutions for both finance and non-finance related projects. Our dedicated team of experts is here to take on your projects and make your life easier while seeing your business prosper."
-    paragraph = "Our scope of work includes but is not limited to developing digital platforms for digital finance, cryptocurrencies, wealth management domains, websites and mobile applications design and development, and digital marketing."
+    paragraph_1 = "At Helvetican Digital, we provide a wide scope of services and digital solutions for both finance and non-finance related projects. Our dedicated team of experts is here to take on your projects and make your life easier while seeing your business prosper."
+    paragraph_2 = "Our scope of work includes but is not limited to developing digital platforms for digital finance, cryptocurrencies, wealth management domains, websites and mobile applications design and development, and digital marketing."
+    [params.wrapper.button]
+      caption = "Learn More"
+      url = "/about-us"
 
   [params.blog]
     enable = true
@@ -67,7 +71,7 @@ theme = "airspace-hugo"
   [params.feature]
     enable = true
     title = "We believe in great ideas"
-    bgImage = "img/feature-bg.png"
+    bgImage = "img/home/feature-bg.png"
     content = "It’s the outcome of the project that gets us all excited at Helvetican Digital. We’re enthusiastic about taking on new challenges and assisting you throughout the entire project. We strongly believe that your satisfaction is our success and we will always provide you with the best solutions."
     [params.feature.button]
       caption = "View Case Studies"
