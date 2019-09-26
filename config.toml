@@ -62,6 +62,7 @@ theme = "airspace-hugo"
   [params.feature]
     enable = true
     title = "We believe in great ideas"
+    image = "img/home/feature.png"
     bgImage = "img/home/feature-bg.png"
     content = "It’s the outcome of the project that gets us all excited at Helvetican Digital. We’re enthusiastic about taking on new challenges and assisting you throughout the entire project. We strongly believe that your satisfaction is our success and we will always provide you with the best solutions."
     [params.feature.button]

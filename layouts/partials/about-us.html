@@ -3,29 +3,29 @@
 <section id="about">
     <div class="container">
         <div class="row">
-            <p>{{ .Site.Data.aboutus.description_1 | safeHTML }}</p>
-        </div>
-        <br>
-        <div class="row">
-            <p>{{ .Site.Data.aboutus.description_2 | safeHTML }}</p>
-        </div>
-        <br>
-        <div class="row">
-            {{ range .Site.Data.aboutus.content }}
-            <div class="col-12">
-                <div class="about-item">
-                    <div class="row">
-                        <div class="col-sm-1 col-md-1">
-                            <img src="{{ .icon }}"/>
-                        </div>
-                        <div class="col-sm-11 col-md-11">
-                            <h4>{{ .name }}</h4>
-                            <p>{{ .text }}</p>
+            <div class="col-sm-12">
+                <p>{{ .Site.Data.aboutus.description_1 | safeHTML }}</p>
+                <br>
+                <p>{{ .Site.Data.aboutus.description_2 | safeHTML }}</p>
+                <br>
+                {{ range .Site.Data.aboutus.content }}
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="about-item">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-2">
+                                    <img src="{{ .icon }}"/>
+                                </div>
+                                <div class="col-xs-12 col-sm-9">
+                                    <h4>{{ .name }}</h4>
+                                    <p>{{ .text }}</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+                {{ end }}
             </div>
-            {{ end }}
         </div>
     </div>
 </section>

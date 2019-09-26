@@ -1,6 +1,9 @@
 <section id="feature" style="background-image: url('{{ .Site.Params.feature.bgImage | absURL }}');">
 <div class="container">
   <div class="row">
+    <div class="col-12 hidden-md hidden-lg">
+      <img width="100%" src="{{ .Site.Params.feature.image | absURL }}" alt="">
+    </div>
     <div class="col-md-6 col-md-offset-6">
       <h2>{{ .Site.Params.feature.title }}</h2>
       <p>
