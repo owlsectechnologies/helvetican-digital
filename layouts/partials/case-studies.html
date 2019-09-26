@@ -3,11 +3,6 @@
 <!-- Portfolio Start -->
 <section id="portfolio-work">
     <div class="container">
-<!--        <div class="row">-->
-<!--            <div class="col-12">-->
-<!--                <p>{{ .Site.Data.casestudies.subtitle | safeHTML }}</p>-->
-<!--            </div>-->
-<!--        </div>-->
         {{ range .Site.Data.casestudies.works }}
         {{ if .is_odd }}
         <div class="row portfolio-item">

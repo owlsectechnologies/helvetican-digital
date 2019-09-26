@@ -3,7 +3,7 @@ title: Case Studies
 subtitle: A small selection of projects we have recently delivered. From UX to Backend Engineering.
 
 works:
-  - title: Helvetican Robo Advisor
+  - title: Robo Advisor
     is_odd: true
     image:
       _x: "/img/case-studies/robo-advisor.png"

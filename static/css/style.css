@@ -198,6 +198,11 @@ header .navbar-default .navbar-nav li a {
     padding: 10px 20px;
     font-size: 14px;
     font-weight: 700;
+    transition: all 0.2s ease;
+}
+
+header .navbar-default .navbar-nav li a:hover {
+    color: #000000;
 }
 
 font header .navbar-default .navbar-nav li a:hover {
