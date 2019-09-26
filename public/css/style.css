@@ -219,7 +219,7 @@ font header .navbar-default .navbar-nav li a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-position: 10% 0%;
+    background-position: 100% 0%;
     padding: 140px 0 350px 0;
     position: relative;
 }
@@ -233,8 +233,8 @@ font header .navbar-default .navbar-nav li a:hover {
     right: 0;
     width: 100%;
     height: 100%;
-    /*background: linear-gradient(to left, #212481, #322e40);*/
-    opacity: 0.0;
+    background-color: #fff;
+    opacity: 0;
 }
 
 #slider .block {
@@ -305,7 +305,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	service Start
 --*/
 #service {
-    padding: 50px 0;
+    padding: 80px 0 40px 0;
     border-bottom: 1px solid #E8E8E8;
 }
 
@@ -347,7 +347,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	about Start
 --*/
 #about {
-    padding: 40px 0;
+    padding: 80px 0 40px 0;
     border-bottom: 1px solid #E8E8E8;
 }
 
@@ -609,6 +609,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #global-header {
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 100% 0;
     padding-top: 150px;
     padding-bottom: 107px;
     position: relative;
@@ -623,7 +624,7 @@ font header .navbar-default .navbar-nav li a:hover {
     right: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to left, #928dab, #1f1c2c 70%);
+    background-color: #19191a;
     opacity: 0;
 }
 
@@ -656,7 +657,7 @@ font header .navbar-default .navbar-nav li a:hover {
 --*/
 #portfolio-work {
     overflow: hidden;
-    padding: 40px 0;
+    padding: 80px 0 40px 0;
     border-bottom: 1px solid #E8E8E8;
 }
 
@@ -806,8 +807,13 @@ font header .navbar-default .navbar-nav li a:hover {
     display: none;
 }
 
-#portfolio-work .portfolio-item {
-    padding: 20px 0;
+#portfolio-work .portfolio-item + .portfolio-item {
+    padding-top: 40px;
+}
+
+#portfolio-work .portfolio-item--reverse {
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 #portfolio-work .portfolio-item .portfolio-item-text {
@@ -920,7 +926,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	contact-form Start
 --*/
 #contact-form {
-    padding-top: 20px;
+    padding: 80px 0 40px 0;
     border-bottom: 1px solid #E8E8E8;
 }
 
@@ -1149,6 +1155,11 @@ footer .footer-manu ul li a {
 footer .footer-manu ul li a:hover {
     color: #000;
 }
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    #slider {
+        background-position: 70% 0%;
+    }
+}
 
 /*		Default Layout: 992px. 
 		Gutters: 24px.
@@ -1171,6 +1182,15 @@ px      68    160    252    344    436    528    620    712    */
     /*--
       wrapper Start
   --*/
+  
+    #slider {
+        background-position: 70% 0%;
+    }
+
+    #slider:before {
+        opacity: 0.4;
+    }
+
     #wrapper {
         text-align: center;
     }
@@ -1178,6 +1198,40 @@ px      68    160    252    344    436    528    620    712    */
     #wrapper .block img {
         padding-top: 100px;
         width: 50%;
+    }
+    .about-us__image {
+        padding-top: 50px;
+    }
+
+    #feature {
+        background-size: 0;
+        background-color: #ededed;
+    }
+
+    header .navbar-default .navbar-header .navbar-brand {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0;
+    }
+    header .navbar-default .navbar-header .navbar-brand img {
+        width: 160px;
+    }
+    header .navbar-default .navbar-nav li a {
+        padding: 10px 10px;
+    }
+    header .navbar-default .navbar-nav li a.contact {
+        margin-left: 5px;
+    }
+
+    
+    #global-header:before {
+        opacity: 0.4;
+    }
+    
+    #portfolio-work .portfolio-item {
+        display: flex;
+        flex-direction: column-reverse;
     }
 
     /*--
@@ -1359,6 +1413,11 @@ px      68    160    252    */
     #slider {
         padding-top: 90px;
         padding-bottom: 100px;
+        background-position: 70% 0%;
+    }
+
+    #slider:before {
+        opacity: 0.4;
     }
 
     #slider .block {
@@ -1371,6 +1430,27 @@ px      68    160    252    */
 
     #slider .block p {
         font-size: 13px;
+    }
+    .about-us__image {
+        padding-top: 50px;
+    }
+
+    #feature {
+        background-size: 0;
+        background-color: #ededed;
+    }
+    
+    #global-header {
+        background-position: calc(100% + 150px) 0;
+    }
+
+    #global-header:before {
+        opacity: 0.4;
+    }
+    
+    #portfolio-work .portfolio-item {
+        display: flex;
+        flex-direction: column-reverse;
     }
 
     /*--
@@ -1617,9 +1697,6 @@ px      68    160    252    */
     /*--
       footer Start
   --*/
-    footer .footer-manu {
-        display: none;
-    }
 }
 
 @media only screen and (min-width: 768px) {
