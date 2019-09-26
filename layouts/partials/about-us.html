@@ -3,21 +3,13 @@
 <section id="about">
     <div class="container">
         <div class="row">
-<!--            <div class="section-title">-->
-<!--                <h2>{{ .Site.Data.aboutus.title }}</h2>-->
-<!--            </div>-->
             <p>{{ .Site.Data.aboutus.description_1 | safeHTML }}</p>
         </div>
-        <div class="row">
-            <div class="col-12">
-                <div class="about-image">
-                    <img src="{{ .Site.BaseURL }}{{ .Site.Data.aboutus.image }}"/>
-                </div>
-            </div>
-        </div>
+        <br>
         <div class="row">
             <p>{{ .Site.Data.aboutus.description_2 | safeHTML }}</p>
         </div>
+        <br>
         <div class="row">
             {{ range .Site.Data.aboutus.content }}
             <div class="col-12">
@@ -26,7 +18,7 @@
                         <div class="col-sm-1 col-md-1">
                             <img src="{{ .icon }}"/>
                         </div>
-                        <div class="col-sm-5 col-md-5">
+                        <div class="col-sm-11 col-md-11">
                             <h4>{{ .name }}</h4>
                             <p>{{ .text }}</p>
                         </div>

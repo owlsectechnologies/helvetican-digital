@@ -36,22 +36,14 @@ theme = "airspace-hugo"
       weight = 3
       name = "About Us"
       url = "about-us"
-    [[menu.footer]]
-      weight = 4
-      name = "Privacy Policy"
-      url = "#"
-    [[menu.footer]]
-      weight = 5
-      name = "Use of Terms"
-      url = "#"
 
   [params.slider]
     enable = true
-    title = "A digital marketing &amp; design agency"
+    title = "A full service digital agency"
     subtitle = "We love the Web and the work we do. We work closely with our clients to deliver the best possible solutions for their needs"
     bgImage = "img/home/slider-bg.png"
     btnText = "Discover Our Projects"
-    url = "/case-studies"
+    url = ''
 
   [params.wrapper]
     enable = true
