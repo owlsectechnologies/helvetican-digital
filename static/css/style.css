@@ -810,6 +810,10 @@ font header .navbar-default .navbar-nav li a:hover {
     padding: 20px 0;
 }
 
+#portfolio-work .portfolio-item .portfolio-item-text {
+    padding: 0 30px;
+}
+
 #portfolio-work .portfolio-item h2 {
     font-size: 40px;
     color: #160622;

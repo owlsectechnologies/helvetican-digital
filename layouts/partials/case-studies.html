@@ -6,7 +6,7 @@
         {{ range .Site.Data.casestudies.works }}
         {{ if .is_odd }}
         <div class="row portfolio-item">
-            <div class="col-md-6 col-sm-12">
+            <div class="col-md-6 col-sm-12 portfolio-item-text">
                 <h2>{{ .title }}</h2>
                 <p>{{ .description }}</p>
             </div>
@@ -23,7 +23,7 @@
                     <img class="portfolio-image" src="{{ .image._3x }}" srcset="{{ .image._2x }} 2x, {{ .image._3x }} 3x" alt="{{ .title }}">
                 </div>
             </div>
-            <div class="col-md-6 col-sm-12">
+            <div class="col-md-6 col-sm-12 portfolio-item-text">
                 <h2>{{ .title }}</h2>
                 <p>{{ .description }}</p>
             </div>
