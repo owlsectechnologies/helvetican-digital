@@ -7,8 +7,11 @@
   </url>
   
   <url>
+    <loc>https://hugo-test.onrender.com/case-studies/</loc>
+  </url>
+  
+  <url>
     <loc>https://hugo-test.onrender.com/categories/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -17,7 +20,6 @@
   
   <url>
     <loc>https://hugo-test.onrender.com/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -26,11 +28,6 @@
   
   <url>
     <loc>https://hugo-test.onrender.com/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://hugo-test.onrender.com/work/</loc>
   </url>
   
 </urlset>

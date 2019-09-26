@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="20px" viewBox="0 0 18 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>cms</title>
+    <desc>Created with Sketch.</desc>
+    <g id="New-Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cms" transform="translate(-3.000000, -2.000000)" fill="#C70D0D" fill-rule="nonzero">
+            <g transform="translate(3.000000, 2.000000)" id="Shape">
+                <path d="M3.414,14 L13.556,3.858 L12.142,2.444 L2,12.586 L2,14 L3.414,14 Z M4.243,16 L0,16 L0,11.757 L11.435,0.322 C11.8254999,-0.0683819383 12.4585001,-0.0683819383 12.849,0.322 L15.678,3.151 C16.0683819,3.54149985 16.0683819,4.17450015 15.678,4.565 L4.243,16 Z M0,18 L18,18 L18,20 L0,20 L0,18 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>

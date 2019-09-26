@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>fintech</title>
+    <desc>Created with Sketch.</desc>
+    <g id="New-Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="fintech" transform="translate(-2.000000, -2.000000)" fill="#C70D0D" fill-rule="nonzero">
+            <g transform="translate(2.000000, 2.000000)" id="Shape">
+                <path d="M10,20 C4.477,20 0,15.523 0,10 C0,4.477 4.477,0 10,0 C15.523,0 20,4.477 20,10 C20,15.523 15.523,20 10,20 Z M10,18 C14.418278,18 18,14.418278 18,10 C18,5.581722 14.418278,2 10,2 C5.581722,2 2,5.581722 2,10 C2,14.418278 5.581722,18 10,18 Z M6.5,12 L12,12 C12.2761424,12 12.5,11.7761424 12.5,11.5 C12.5,11.2238576 12.2761424,11 12,11 L8,11 C6.61928813,11 5.5,9.88071187 5.5,8.5 C5.5,7.11928813 6.61928813,6 8,6 L9,6 L9,4 L11,4 L11,6 L13.5,6 L13.5,8 L8,8 C7.72385763,8 7.5,8.22385763 7.5,8.5 C7.5,8.77614237 7.72385763,9 8,9 L12,9 C13.3807119,9 14.5,10.1192881 14.5,11.5 C14.5,12.8807119 13.3807119,14 12,14 L11,14 L11,16 L9,16 L9,14 L6.5,14 L6.5,12 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>

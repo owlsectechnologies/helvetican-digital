@@ -42,8 +42,7 @@ theme = "airspace-hugo"
     title = "A full service digital agency"
     subtitle = "We love the Web and the work we do. We work closely with our clients to deliver the best possible solutions for their needs"
     bgImage = "img/home/slider-bg.png"
-    btnText = "Discover Our Projects"
-    url = ''
+    btnText = "Learn More"
 
   [params.wrapper]
     enable = true
@@ -53,7 +52,7 @@ theme = "airspace-hugo"
     paragraph_2 = "Our scope of work includes but is not limited to developing digital platforms for digital finance, cryptocurrencies, wealth management domains, websites and mobile applications design and development, and digital marketing."
     [params.wrapper.button]
       caption = "Learn More"
-      url = "/about-us"
+      url = "/about-us"git
 
   [params.blog]
     enable = true
