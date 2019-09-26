@@ -52,7 +52,7 @@ theme = "airspace-hugo"
     paragraph_2 = "Our scope of work includes but is not limited to developing digital platforms for digital finance, cryptocurrencies, wealth management domains, websites and mobile applications design and development, and digital marketing."
     [params.wrapper.button]
       caption = "Learn More"
-      url = "/about-us"git
+      url = "/about-us"
 
   [params.blog]
     enable = true
